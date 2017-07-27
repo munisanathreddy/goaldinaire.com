@@ -1,0 +1,78 @@
+.about-content1 img{
+	width: 100%;
+}
+@media(min-width: 1200px){
+	.about-content1{
+		height: 508px;
+	}
+}
+.about-content1 h3{
+	font-family: 'libel suit';
+}
+.about-content-box h2{
+		text-decoration: none;
+		color: #d34747;
+	}
+@media(min-width: 1200px){
+	.about-content-box h2{
+		text-decoration: none;
+	}
+	.about-content2 h2{
+		color: white;
+	}
+	.about-content1 h2{
+	}
+	.about-content-box h2{
+		text-decoration: none;
+		color: #d34747;
+	}
+	.about-content1 img{
+		width: 100%;
+	}
+	.share-one{
+		width: 50%;
+	}
+	.share-two{
+		width: 50%;
+	}
+
+}
+.about-content1{
+}
+@media(max-width: 1199px){
+	.about-content-box{
+		padding-bottom: 80px;
+	}
+}
+@media(min-width: 768px)and (max-width: 991px){
+	.about-content1{
+		height: 550px;
+	}
+	.share-one{
+		width: 60%;
+	}
+	.share-two{
+		width: 40%;
+	}
+}
+@media(min-width: 992px)and (max-width: 1199px){
+	.about-content1{
+		height: 410px;
+	}
+}
+@media(min-width: 1200px){
+	.about-content-box{
+		width: 100%;
+		height: 970px;
+	}
+	.about-content-box a.click-here{
+		background-color: #d34747;
+		width: 120px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 100px;
+	}
+}

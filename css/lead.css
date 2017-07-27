@@ -1,0 +1,65 @@
+.about-content1 h2{
+	color:#d34747;
+	text-decoration: none;
+}
+.for-lead h3{
+	font-family: 'Lemonada', cursive;
+	color: #d34747;
+	text-align: left;
+}
+.about-content1 h3{
+	font-family: 'libel suit';
+}
+@media(min-width: 1200px){
+	.about-content-box h2{
+		color: #fff;
+	}
+	.about-content-box{
+		padding-bottom: 300px;
+	}
+	.for-lead h3{
+		color: #fff;
+	}
+	.about-content1{
+		height: 300px;
+	}
+	.about-content-box a.click-here{
+		margin-top: 25px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.about-content1{
+		height: 320px;
+	}
+}
+@media(max-width: 991px){
+	.about-content2{
+		padding-bottom: 80px;
+	}
+}
+.for-lead h3{
+	margin-top: 10px;
+}
+@media(max-width: 767px){
+	.about-content1 img{
+		margin-bottom: 50px;
+	}
+}
+@media(min-width: 1200px){
+	.about-content-box{
+		width: 100%;
+		height: 970px;
+	}
+	.about-content-box a.click-here{
+		background-color: #d34747;
+		width: 120px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 100px;
+	}
+}
+
+

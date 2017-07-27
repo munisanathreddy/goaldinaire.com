@@ -1,0 +1,373 @@
+.about-content2 h2{
+	color: #d34747;
+	text-decoration: none;
+}
+.about-content1 h2{
+	color: #d34747;
+	text-decoration: none;
+}
+@media(max-width: 992px){
+	.about-content-box{
+		padding-bottom: 50px;
+	}
+	.about-content1 h2{
+		color: #d34747;
+	}
+}
+@media(min-width: 992px){
+	.about-content2 h2{
+		color: #fff;
+		text-decoration: none;
+	}
+	.about-content1{
+		height: 250px;
+	}
+	.share-four h2{
+		text-align: center;
+	}
+}
+.about-content4:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+@media(max-width: 767px){
+	.values{
+		float: left;
+		width: 100%;
+	}
+	.about-content4:after{
+		display: block;
+		clear: both;
+		content: "";
+	}
+	.about-content4{
+		position: relative;
+		padding-bottom: 100px;
+	}
+	.share-four h2{
+		color: #d34747;
+		font-size: 24px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.values img{
+		width: 50%;
+	}
+	.values span{
+		color: #d34747;
+	}
+	.share-four h2{
+		color: #d34747;
+	}
+	.values img.affiliate{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.social{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.webads{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.email{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.webinars{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.values img.seo{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	span.last-six{
+	padding-left: 20px;
+	}
+	span.last-five{
+		padding-left: 20px;
+	}
+	span.last-four{
+		padding-left: 20px;
+	}
+	span.last-three{
+		padding-left: 20px;
+	}
+	span.last-two{
+	padding-left: 20px;
+	}
+	span.last-one{
+		padding-left: 20px;
+	}
+	.about-content4{
+	}
+}
+.values:hover{
+	background-color: black;
+	border-radius: 20px;
+}
+.values:hover span{
+	color: white;
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.values{
+		float: left;
+		width: 50%;
+		margin-bottom: 50px;
+	}
+	.values img{
+		width: 50%;
+	}
+	.share-four h2{
+		color: #d34747;
+	}
+	span{
+		font-weight: bold;
+		font-size: 17px;
+		color: #d34747;
+		padding-left: 30px;
+	}
+	.about-content1{
+		height: 280px;
+	}
+	.about-content1:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+	.share-four {
+		padding-bottom: 40px;
+	}
+	.about-content2 h2{
+		text-align: center;
+	}
+	.about-content2 p{
+		text-align: center;
+	}
+	.values img.affiliate{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.social{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.webads{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.email{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.values img.webinars{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 55%;
+	}
+	.values img.seo{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	span.last-six{
+	padding-left: 10px;
+	}
+	span.last-five{
+		padding-left: 10px;
+	}
+	span.last-four{
+		padding-left: 10px;
+	}
+	span.last-three{
+		padding-left: 10px;
+	}
+	span.last-two{
+	padding-left: 10px;
+	}
+	span.last-one{
+		padding-left: 10px;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	.about-content-box{
+		padding-bottom: 120px;
+	}
+	.about-content1 h2{
+		color: #d34747;
+	}
+	.about-content1 p{
+		color: black;
+	}
+	.about-content2 h2{
+		color: #d34747;
+	}
+	.about-content2 p{
+		color: black;
+	}
+}
+@media(min-width: 992px){
+	.values{
+		float: left;
+		margin-top: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 15.2%;
+		background-color: white;
+		opacity: .7;
+		margin-left: 15px;
+	}
+	.about-content4:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+	p{
+		color: white;
+	}
+	.values:hover{
+		cursor: pointer;
+	}
+	.values span{
+	}
+	.values img{
+		width: 70%;
+		padding:10px;
+	}
+	img.affiliate{
+		margin-left: 25px;
+	}
+	img.social{
+		margin-left: 25px;
+	}
+	img.webads{
+		margin-left: 25px;
+	}
+	img.email{
+		margin-left: 25px;
+	}
+	img.webinars{
+		margin-left: 25px;
+	}
+	img.seo{
+		margin-left: 28px;
+	}
+	span.last-six{
+		padding-left: 30px;
+	}
+	span.last-five{
+		padding-left: 40px;
+	}
+	span.last-four{
+		padding-left: 50px;
+	}
+	span.last-three{
+		padding-left: 35px;
+	}
+	span.last-two{
+		padding-left: 55px;
+	}
+	span.last-one{
+		padding-left: 60px;
+	}
+	.about-content1 img{
+	}
+}
+@media(min-width: 1200px){
+	.share-four{
+	}
+	.share-four h2{
+		color: #fff;
+		font-weight: bold;
+	}
+	.about-content1 h2{
+		color:#fff;
+	}
+	.share{
+	}
+	.values span{
+		padding-left: 50px;
+		color:#d34747;
+	}
+	.values img{
+		margin-left: 40px;
+		width: 40%;
+	}
+	.values{
+		margin-top: 20px;
+	}
+	img.affiliate{
+		margin-left: 55px;
+		margin-top: 10px;
+		width: 45%;
+	}
+	span.last-one{
+		padding-left: 30px;
+	}
+	img.social{
+		margin-left: 55px;
+		margin-top: 20px;
+	}
+	span.last-two{
+		padding-left: 50px;
+	}
+	img.webads{
+		margin-left: 55px;
+		margin-top: 20px;
+		width: 40%;
+	}
+	span.last-three{
+		padding-left: 40px;
+	}
+	img.email{
+		margin-left: 55px;
+		margin-top: 20px;
+		margin-bottom: 4px;
+	}
+	span.last-four{
+		padding-left: 40px;
+	}
+	img.webinars{
+		margin-left: 45px;
+		margin-top: 20px;
+		width: 50%;
+	}
+	span.last-five{
+		padding-left: 35px;
+	}
+	img.seo{
+		margin-left: 55px;
+		margin-top: 20px;
+	}
+	span.last-six{
+		padding-left: 30px;
+	}
+}
+.values span{
+	font-family: 'libel suit';
+}
+@media(min-width: 1200px){
+	.about-content-box a.click-here{
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+	.about-content-box{
+		width: 100%;
+		height: 970px;
+		
+	}
+	.about-content-box a.click-here{
+		background-color: #d34747;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 100px;
+	}
+	.about-content4{
+		width: 100%;
+	}
+}

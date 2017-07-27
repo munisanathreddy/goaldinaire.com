@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'icomoon-font';
+  src:
+    url('../fonts/icomoon-font.ttf?z10vxj') format('truetype'),
+    url('../fonts/icomoon-font.woff?z10vxj') format('woff'),
+    url('../fonts/icomoon-font.svg?z10vxj#icomoon-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone2:before {
+  content: "\e939";
+}
+.icon-mail:before {
+  content: "\eaef";
+}
+.icon-location:before {
+  content: "\e9b3";
+}
+.icon-facebook:before {
+  content: "\eafc";
+}
+.icon-linkedin:before {
+  content: "\eb35";
+}
+.icon-google-plus:before {
+  content: "\eaf7";
+}
+.icon-youtube:before {
+  content: "\eb09";
+}
+.icon-twitter:before {
+  content: "\eb02";
+}
+
+body{
+	background-color: #f7f7f7;
+}
+.sub-menu1{
+	top:35px;
+	right: 235px;
+}
+.sub-menu2{
+	top:35px;
+}
+.footer{
+	background-color: black;
+	height: 80px;
+}
+.footer h3{
+	margin:0;
+}
+.contact-content-box{
+}
+.contact-content-box:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.contact-content-row{
+	float: left;
+	margin-top: 120px;
+}
+.share1{
+	width:40%;
+}
+.share2{
+	width:60%;
+}
+.contact-content-row h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact-content{
+	padding:20px;
+}
+.contact-content p{
+	text-align: center;
+}
+.contact-content h2{
+	text-align: center;
+	margin: 0;
+}
+.contact-content h2 i{
+  color: red;
+}
+h2 i.icon-phone2{
+  color:blue;
+}
+
+
+.form-wrap {  
+  clear:both;
+  width:60%;
+  background-color: #d34747;
+  padding:10px;
+  margin:40px auto;
+  border-radius:10px;
+}
+@media(max-width: 767px){
+  .form-wrap {  
+    width:80%;
+  }
+}
+.form-row {
+  background-color: #f7f7f7;
+  padding:10px;
+  margin-bottom:2px;
+}
+.form-row:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+.form-row label {
+  width:120px;
+  float: left;
+  text-align: right;
+  line-height: 30px;
+  font-size:14px;
+  text-transform: uppercase;
+  color:#777;
+  margin-right: 10px;
+}
+.form-row .input-wrap {
+  margin-left: 130px;
+}
+.form-row select,
+.form-row input {
+  width:100%;
+  border: solid 1px #C5C5C5;
+  border-radius:4px;
+  padding:5px 8px;
+  color:#555;
+}
+.form-row input:focus {
+  border-color: blue;
+  border-radius:4px;
+  box-shadow: 0 0 3px 1px rgba(0,0,255,.5);
+}
+.form-row input:invalid,
+.form-row input.error {
+  border-color: red;
+  border-radius:4px;
+  box-shadow: 0 0 3px 1px rgba(255,0,0,.5);
+  color:red;
+}
+@media(min-width: 220px) and (max-width: 767px){
+	.share1{
+		width:100%;
+	}
+	.share2{
+		width:100%;
+	}
+	.form-row label{
+		text-align: left;
+	}
+	.form-row .input-wrap {
+  	margin-left: 0px;
+	}
+	.contact-content-row{
+		margin-top: 60px;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	.contact-content-row{
+		margin-top: 150px;
+	}
+}
+@media(max-width: 768px){
+  .footer{
+    height: 120px;
+  }
+  .footer h3{
+    text-align: center;
+    font-size: 14px;
+  }
+.footer p{
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+@media(min-width: 1200px){
+  .contact-content4{
+  }
+}
+@media(max-width: 768px){
+  .contact-content-row h1{
+    font-size: 34px;
+  }
+  .contact-content-box{
+    margin-top: 30px;
+  }
+  .contact-content h2{
+    font-size: 28px;
+  }
+}
+@media(max-width: 1200px){
+    .contact-content-row h1{
+    font-size: 34px;
+  }
+  .contact-content h2{
+    font-size: 28px;
+  }
+}
+  iframe{
+    float: left;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.contact-content4{
+}
+.contact-content4:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.site-nav > ul > li{
+  font-family: 'Lemonada', cursive;
+  font-size: 12px;
+}
+.sub-menu1 li{
+  font-family: 'libel suit';
+}
+.sub-menu2 li{
+  font-family: 'libel suit';
+}
+input{
+  width: 100%;
+  height: 30px;
+}
+textarea{
+  width: 100%;
+}
+form #submit{
+  display: block;
+  margin-top: 10px;
+  width: auto;
+}
+@media(min-width: 1200px){
+  .contact-content-box{
+    width: 100%;
+    height: 850px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
